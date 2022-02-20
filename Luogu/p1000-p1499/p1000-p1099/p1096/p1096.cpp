@@ -1,31 +1,40 @@
-#include <bits/stdc++.h>
+#define _CRT_SECURE_NO_WARNINGS
+#include<bits/stdc++.h>
 using namespace std;
-int num[100];
-int main(){
-	int n,l=1;
-	cin>>n;
-	memset(num,0,100);
-	num[1]=1;
-	for(int i=1;i<=n+1;i++){
-		for(int j=1;j<=l;j++){
-			num[j]*=2;
+int num[210];
+
+void mul(int k)
+{
+	for(int i = 1; i <= num[0]; i++)num[i] *= k;
+	for(int i = 1; i <= num[0]; i++)
+	{
+		if(num[i] > 9)
+		{
+			num[i + 1]++;
+			num[i] -= 10;
 		}
-		for(int j=1;j<=l;j++){
-			if(num[j]>=10){
-				num[j+1]++;
-				num[j]=num[j]%10;
-			}
-			if(num[l+1]!=0)l++;
+		if(num[num[0] + 1] != 0)num[0]++;
+	}
+}
+
+int main()
+{
+	int n;
+	cin >> n;
+	num[1] = 1, num[0] = 1;
+	for(int i = 0; i <= n; i++)mul(2);
+	num[1] -= 2;
+	for(int i = 1; i <= num[0]; i++)
+	{
+		if(num[i] < 0)
+		{
+			num[i] += 10;
+			num[i + 1]--;
 		}
+		if(num[num[0]] == 0)num[0]--;
 	}
-	if(num[1]<2){
-		num[2]--;
-		num[1]+=8;
-	}else{
-		num[1]-=2;
-	}
-	for(int i=l;i>=1;i--){
-		cout<<num[i];
-	}
+	for(int i = num[0]; i >= 1; i--)printf("%d", num[i]);
+	putchar('\n');
 	return 0;
 }
+
