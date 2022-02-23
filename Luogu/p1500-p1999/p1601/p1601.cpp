@@ -1,40 +1,26 @@
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cmath>
-#include <algorithm>
-#include <vector>
-#include <utility> 
+#define _CRT_SECURE_NO_WARNINGS
+#include <bits/stdc++.h>
 using namespace std;
-string a,b;
-int c[505];
-int main(){
-	cin>>a>>b;
-	int sa,sb,x;
-	sa=a.size();
-	sb=b.size();
-	if(sa>sb){
-		x=sa;
-	}else{
-		x=sb;
-	}
-	for(int i=1;i<=sa;i++){
-		c[i]+=a[sa-i]-'0';
-	}
-	for(int i=1;i<=sb;i++){
-		c[i]+=b[sb-i]-'0';
-	}
-	for(int i=1;i<=x;i++){
-		if(c[i]>=10){
-			c[i++]++;
-			c[i]-=10;
+#define ll long long
+const int N = 1010;
+int ans[N];
+string a, b;
+int main()
+{
+	cin >> a >> b;
+	for(int i = 1; i <= a.length(); i++)ans[i] += a[a.length() - i] - '0';
+	for(int i = 1; i <= b.length(); i++)ans[i] += b[b.length() - i] - '0';
+	ans[0] = max(a.length(), b.length());
+	for(int i = 1; i <= ans[0]; i++)
+	{
+		if(ans[i] > 9)
+		{
+			ans[i + 1]++;
+			ans[i] -= 10;
+			if(ans[ans[0] + 1] > 0)ans[0]++;
 		}
 	}
-	if(c[x++]>0){
-		x++;
-	}
-	for(int i=x-2;i>=1;i--){
-		cout<<c[i];
-	}
+	for(int i = ans[0]; i >= 1; i--)cout << ans[i];
+	putchar('\n');
 	return 0;
 }
