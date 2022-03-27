@@ -1,12 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
-int n;
-unsigned long long k;
-int main(){
-   	cin>>n>>k;
-    k^=k>>1;
-    while(~--n){
-    	cout<<(k>>n&1);
+#define ll unsigned long long
+int h[100];
+int idx;
+int main()
+{
+	ll n, k;
+	cin >> n >> k;
+	k = k ^ (k >> 1);
+	while(k)
+	{
+		h[++idx] = k & 1;
+		k >>= 1;
 	}
-    return 0;
+	for(int i = n; i >= 1; i--)
+		printf("%d", h[i]);
+	putchar('\n');
+	return 0;
 }
