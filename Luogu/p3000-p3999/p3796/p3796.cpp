@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
-const int N = 1000010;
+const int N = 100010;
 
 struct trie
 {
@@ -10,8 +10,10 @@ struct trie
 	int fail;
 }tr[N];
 int idx = 0;
+int vis[N];
+vector<string>dic;
 
-void insert(string s)
+void insert(string s, int id)
 {
 	int u = 0;
 	for(int i = 0; i < s.length(); i++)
@@ -23,7 +25,7 @@ void insert(string s)
 			u = idx;
 		}
 	}
-	tr[u].cnt++;
+	tr[u].cnt = id;
 }
 
 void get_fail()
@@ -50,35 +52,57 @@ void get_fail()
 	}
 }
 
-int query(string s)
+void query(string s)
 {
 	int u = 0;
-	int res = 0;
 	for(int i = 0; i < s.length(); i++)
 	{
 		u = tr[u].s[s[i] - 'a'];
-		for(int j = u; j > 0 && tr[j].cnt > 0; j = tr[j].fail)
-		{
-			res += tr[j].cnt;
-			tr[j].cnt = 0;
-		}
+		for(int j = u; j > 0; j = tr[j].fail)
+			vis[tr[j].cnt]++;
 	}
-	return res;
+	return;
+}
+
+void init()
+{
+	dic.clear();
+	for(int i = 0; i <= idx; i++)
+	{
+		for(int j = 0; j < 26; j++)tr[i].s[j] = 0;
+		tr[i].cnt = 0;
+		tr[i].fail = 0;
+	}
+	idx = 0;
+	memset(vis, 0, sizeof(vis));
 }
 
 int main()
 {
 	int n;
 	cin >> n;
-	for(int i = 1; i <= n; i++)
+	while(n)
 	{
-		string s;
-		cin >> s;
-		insert(s);
+		init();
+		for(int i = 1; i <= n; i++)
+		{
+			string s;
+			cin >> s;
+			dic.push_back(s);
+			insert(s, i);
+		}
+		get_fail();
+		string t;
+		cin >> t;
+		query(t);
+		int maxn = -1;
+		for(int i = 1; i <= n; i++)
+			maxn = max(maxn, vis[i]);
+		cout << maxn << endl;
+		for(int i = 1; i <= n; i++)
+			if(vis[i] == maxn)
+				cout << dic[i - 1] << endl;
+		cin >> n;
 	}
-	get_fail();
-	string t;
-	cin >> t;
-	cout << query(t) << endl;
 	return 0;
 }
