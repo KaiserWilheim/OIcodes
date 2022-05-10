@@ -37,7 +37,7 @@
 | Nowcoder | Nowcoder | nc |
 | POJ | **P**eking university **J**udge**O**nline | poj |
 | S2OJ | 校内OJ | se |
-| SPOJ | **SP**here **O**nline**J**udge | SP [^1] |
+| SPOJ | **SP**here **O**nline**J**udge | sp [^1] |
 | UOJ | **U**niversal**OJ** | u |
 
 [^1]: 可以同时根据题目在洛谷中的编号以及题目在SPOJ中的字母代号进行搜索
