@@ -15,4 +15,29 @@
 
 对于一些重复的题目（比如说 Luogu 的 SpOJ 题目）我会放多次。
 
+## 检索
 
+每一个 OJ 对应的题目都会采用不同的编码方式。
+
+比如说 LibreOJ 的题目会叫做 `lxxxx.cpp`。
+
+下面是一些 OJ 对应的前缀：
+
+| 文件夹名 | Online Judge 全名 | 文件前缀 |
+|:-------:|:----------------:|:-------:|
+| AcWing | AcWing | ac |
+| AtCoder | AtCoder （比赛） | ABC |
+| AtCoder | AtCoder （练习） | at |
+| CF | **C**ode**F**orces （比赛） | CF |
+| CF | **C**ode**F**orces （练习） | cf |
+| DarkBZ OJ | DarkBZ OJ | bz |
+| Easy OJ | Easy OJ （已挂） | e |
+| Libre OJ | Libre OJ | l |
+| Luogu | Luogu | p |
+| Nowcoder | Nowcoder | nc |
+| POJ | **P**eking university **J**udge**O**nline | poj |
+| S2OJ | 校内OJ | se |
+| SPOJ | **SP**here **O**nline**J**udge | SP [^1] |
+| UOJ | **U**niversal**OJ** | u |
+
+[^1]: 可以同时根据题目在洛谷中的编号以及题目在SPOJ中的字母代号进行搜索
