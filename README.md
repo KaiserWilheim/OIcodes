@@ -23,21 +23,23 @@
 
 下面是一些 OJ 对应的前缀：
 
-| 文件夹名 | Online Judge 全名 | 文件前缀 |
-|:-------:|:----------------:|:-------:|
-| AcWing | AcWing | ac |
-| AtCoder | AtCoder （比赛） | ABC |
-| AtCoder | AtCoder （练习） | at |
-| CF | **C**ode**F**orces （比赛） | CF |
-| CF | **C**ode**F**orces （练习） | cf |
-| DarkBZ OJ | DarkBZ OJ | bz |
-| Easy OJ | Easy OJ （已挂） | e |
-| Libre OJ | Libre OJ | l |
-| Luogu | Luogu | p |
-| Nowcoder | Nowcoder | nc |
-| POJ | **P**eking university **J**udge**O**nline | poj |
-| S2OJ | 校内OJ | se |
-| SPOJ | **SP**here **O**nline**J**udge | sp [^1] |
-| UOJ | **U**niversal**OJ** | u |
+| 文件夹名 | Online Judge 全名 | 文件前缀 | 总题目数量 |
+|:-------:|:----------------:|:-------:|:--------:|
+| AcWing | AcWing | ac | 35 |
+| AtCoder | AtCoder | AxC[^1] | 52 |
+| AtCoder | AtCoder（练习） | at[^2] | 2 |
+| CF | **C**ode**F**orces （比赛） | CF | 5 |
+| CF | **C**ode**F**orces （练习） | cf | 13 |
+| DarkBZ OJ | DarkBZ OJ | bz | 12 |
+| Easy OJ | Easy OJ （已挂） | e | 2 |
+| Libre OJ | Libre OJ | l | 21 |
+| Luogu | Luogu | p | 335 |
+| Nowcoder | Nowcoder | nc | 1 |
+| POJ | **P**eking university **J**udge**O**nline | poj | 2 |
+| S2OJ | 校内OJ | se | 8 |
+| SPOJ | **SP**here **O**nline**J**udge | sp [^3] | 5 |
+| UOJ | **U**niversal**OJ** | u | 1 |
 
-[^1]: 可以同时根据题目在洛谷中的编号以及题目在SPOJ中的字母代号进行搜索
+[^1]: 包括 `ABC` , `ARC` 与 `AGC`
+[^2]: 只收录了洛谷内有的题目
+[^3]: 可以同时根据题目在洛谷中的编号以及题目在SPOJ中的字母代号进行搜索
