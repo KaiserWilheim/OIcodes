@@ -30,10 +30,10 @@
 | AtCoder | AtCoder（练习） | at[^2] | 2 |
 | CF | **C**ode**F**orces （比赛） | CF | 5 |
 | CF | **C**ode**F**orces （练习） | cf | 13 |
-| DarkBZ OJ | DarkBZ OJ | bz | 12 |
+| DarkBZ OJ | DarkBZ OJ | bz | 14 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
-| Libre OJ | Libre OJ | l | 21 |
-| Luogu | Luogu | p | 335 |
+| Libre OJ | Libre OJ | l | 26 |
+| Luogu | Luogu | p | 337 |
 | Nowcoder | Nowcoder | nc | 1 |
 | POJ | **P**eking university **J**udge**O**nline | poj | 2 |
 | S2OJ | 校内OJ | se | 8 |
