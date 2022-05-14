@@ -32,8 +32,8 @@
 | CF | **C**ode**F**orces （练习） | cf | 13 |
 | DarkBZ OJ | DarkBZ OJ | bz | 14 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
-| Libre OJ | Libre OJ | l | 26 |
-| Luogu | Luogu | p | 337 |
+| Libre OJ | Libre OJ | l | 27 |
+| Luogu | Luogu | p | 338 |
 | Nowcoder | Nowcoder | nc | 1 |
 | POJ | **P**eking university **J**udge**O**nline | poj | 2 |
 | S2OJ | 校内OJ | se | 8 |
@@ -43,3 +43,6 @@
 [^1]: 包括 `ABC` , `ARC` 与 `AGC`
 [^2]: 只收录了洛谷内有的题目
 [^3]: 可以同时根据题目在洛谷中的编号以及题目在SPOJ中的字母代号进行搜索
+
+
+
