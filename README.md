@@ -26,7 +26,7 @@
 | 文件夹名 | Online Judge 全名 | 文件前缀 | 总题目数量 |
 |:-------:|:----------------:|:-------:|:--------:|
 | AcWing | AcWing | ac | 35 |
-| AtCoder | AtCoder | AxC[^1] | 52 |
+| AtCoder | AtCoder | AxC[^1] | 58 |
 | AtCoder | AtCoder（练习） | at[^2] | 2 |
 | CF | **C**ode**F**orces （比赛） | CF | 5 |
 | CF | **C**ode**F**orces （练习） | cf | 13 |
@@ -41,7 +41,9 @@
 | UOJ | **U**niversal**OJ** | u | 1 |
 
 [^1]: 包括 `ABC` , `ARC` 与 `AGC`
+
 [^2]: 只收录了洛谷内有的题目
+
 [^3]: 可以同时根据题目在洛谷中的编号以及题目在SPOJ中的字母代号进行搜索
 
 
