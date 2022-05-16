@@ -13,6 +13,19 @@
 
 大多数存储的都是 C++ 代码，有时候也会水一些 Java 和 Python 上去。
 
+最近听说Rust会比C++快，于是就在某些上面试了一下。
+
+但是：
+
+> 宝硕 任：
+>
+> 谁告诉你一定快了
+> 是针对特定任务快了
+>
+> 但对于 OI 来说并不快
+
+所以说好不容易学的Rust……
+
 对于一些重复的题目（比如说 Luogu 的 SpOJ 题目）我会放多次。
 
 ## 检索
@@ -29,11 +42,11 @@
 | AtCoder | AtCoder | AxC[^1] | 58 |
 | AtCoder | AtCoder（练习） | at[^2] | 2 |
 | CF | **C**ode**F**orces （比赛） | CF | 5 |
-| CF | **C**ode**F**orces （练习） | cf | 13 |
+| CF | **C**ode**F**orces （练习） | cf | 14 |
 | DarkBZ OJ | DarkBZ OJ | bz | 16 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
 | Libre OJ | Libre OJ | l | 28 |
-| Luogu | Luogu | p | 339 |
+| Luogu | Luogu | p | 341 |
 | Nowcoder | Nowcoder | nc | 1 |
 | POJ | **P**eking university **J**udge**O**nline | poj | 2 |
 | S2OJ | 校内OJ | se | 8 |
