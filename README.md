@@ -38,20 +38,20 @@
 
 | 文件夹名 | Online Judge 全名 | 文件前缀 | 总题目数量 |
 |:-------:|:----------------:|:-------:|:--------:|
-| AcWing | AcWing | ac | 36 |
+| AcWing | AcWing | ac | 37 |
 | AtCoder | AtCoder | AxC[^1] | 58 |
 | AtCoder | AtCoder（练习） | at[^2] | 2 |
 | CF | **C**ode**F**orces （比赛） | CF | 5 |
 | CF | **C**ode**F**orces （练习） | cf | 14 |
-| DarkBZ OJ | DarkBZ OJ | bz | 16 |
+| DarkBZ OJ | DarkBZ OJ | bz | 17 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
-| Libre OJ | Libre OJ | l | 28 |
-| Luogu | Luogu | p | 341 |
+| Libre OJ | Libre OJ | l | 29 |
+| Luogu | Luogu | p | 345 |
 | Nowcoder | Nowcoder | nc | 1 |
 | POJ | **P**eking university **J**udge**O**nline | poj | 2 |
-| S2OJ | 校内OJ | se | 8 |
+| S2OJ | 校内OJ | se | 9 |
 | SPOJ | **SP**here **O**nline**J**udge | sp [^3] | 5 |
-| UOJ | **U**niversal**OJ** | u | 1 |
+| UOJ | **U**niversal**OJ** | u | 2 |
 
 [^1]: 包括 `ABC` , `ARC` 与 `AGC`
 [^2]: 只收录了洛谷内有的题目
