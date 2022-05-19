@@ -46,7 +46,7 @@
 | DarkBZ OJ | DarkBZ OJ | bz | 17 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
 | Libre OJ | Libre OJ | l | 29 |
-| Luogu | Luogu | p | 345 |
+| Luogu | Luogu | p | 347 |
 | Nowcoder | Nowcoder | nc | 1 |
 | POJ | **P**eking university **J**udge**O**nline | poj | 2 |
 | S2OJ | 校内OJ | se | 9 |
