@@ -20,7 +20,10 @@
 > 宝硕 任：
 >
 > 谁告诉你一定快了
+>
 > 是针对特定任务快了
+>
+> 
 >
 > 但对于 OI 来说并不快
 
@@ -42,11 +45,11 @@
 | AtCoder | AtCoder | AxC[^1] | 58 |
 | AtCoder | AtCoder（练习） | at[^2] | 2 |
 | CF | **C**ode**F**orces （比赛） | CF | 5 |
-| CF | **C**ode**F**orces （练习） | cf | 14 |
-| DarkBZ OJ | DarkBZ OJ | bz | 17 |
+| CF | **C**ode**F**orces （练习） | cf | 15 |
+| DarkBZ OJ | DarkBZ OJ | bz | 18 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
 | Libre OJ | Libre OJ | l | 29 |
-| Luogu | Luogu | p | 347 |
+| Luogu | Luogu | p | 352 |
 | Nowcoder | Nowcoder | nc | 1 |
 | POJ | **P**eking university **J**udge**O**nline | poj | 2 |
 | S2OJ | 校内OJ | se | 9 |
