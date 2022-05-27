@@ -46,15 +46,16 @@
 | AtCoder | AtCoder（练习） | at[^2] | 2 |
 | CF | **C**ode**F**orces （比赛） | CF | 5 |
 | CF | **C**ode**F**orces （练习） | cf | 15 |
-| DarkBZ OJ | DarkBZ OJ | bz | 18 |
+| DarkBZ OJ | DarkBZ OJ | bz | 19 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
-| Libre OJ | Libre OJ | l | 29 |
-| Luogu | Luogu | p | 355 |
+| Libre OJ | Libre OJ | l | 30 |
+| Luogu | Luogu | p | 356 |
 | Nowcoder | Nowcoder | nc | 1 |
 | POJ | **P**eking university **J**udge**O**nline | poj | 2 |
 | S2OJ | 校内OJ | se | 9 |
 | SPOJ | **SP**here **O**nline**J**udge | sp [^3] | 5 |
-| UOJ | **U**niversal**OJ** | u | 2 |
+| UOJ | **U**niversal**OJ** | u | 3 |
+| UVA | **UVA** Online Judge | uva | 1 |
 
 [^1]: 包括 `ABC` , `ARC` 与 `AGC`
 [^2]: 只收录了洛谷内有的题目
