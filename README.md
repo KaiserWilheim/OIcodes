@@ -48,10 +48,10 @@
 | Luogu\CF Practice | **C**ode**F**orces （练习） | cf | 18 |
 | DarkBZ OJ | DarkBZ OJ | bz | 19 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
-| Libre OJ | Libre OJ | l | 30 |
-| Luogu | Luogu | p | 361 |
+| Libre OJ | Libre OJ | l | 31 |
+| Luogu | Luogu | p | 369 |
 | Nowcoder | Nowcoder | nc | 1 |
-| POJ | **P**eking university **J**udge**O**nline | poj | 2 |
+| POJ | **P**eking university **J**udge**O**nline | poj | 3 |
 | S2OJ | 校内OJ | se | 9 |
 | SPOJ | **SP**here **O**nline**J**udge | sp [^3] | 5 |
 | UOJ | **U**niversal**OJ** | u | 3 |
