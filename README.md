@@ -44,7 +44,7 @@
 | AcWing | AcWing | ac | 41 |
 | AtCoder | AtCoder | AXC[^1] | 64 |
 | Luogu\AtCoder Practice | AtCoder（练习） | at[^2] | 2 |
-| CF | **C**ode**F**orces （比赛） | CF | 5 |
+| CF | **C**ode**F**orces （比赛） | CF | 10 |
 | Luogu\CF Practice | **C**ode**F**orces （练习） | cf | 19 |
 | DarkBZ OJ | DarkBZ OJ | bz | 20 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
