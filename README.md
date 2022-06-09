@@ -43,13 +43,13 @@
 |:-------:|:----------------:|:-------:|:--------:|
 | AcWing | AcWing | ac | 41 |
 | AtCoder | AtCoder | AXC[^1] | 64 |
-| Luogu\AtCoder Practice | AtCoder（练习） | at[^2] | 3 |
+| Luogu\AtCoder Practice | AtCoder（练习） | at[^2] | 2 |
 | CF | **C**ode**F**orces （比赛） | CF | 10 |
-| Luogu\CF Practice | **C**ode**F**orces （练习） | cf | 19 |
+| Luogu\CF Practice | **C**ode**F**orces （练习） | cf | 18 |
 | DarkBZ OJ | DarkBZ OJ | bz | 20 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
 | Libre OJ | Libre OJ | l | 39 |
-| Luogu | Luogu | p | 385 |
+| Luogu | Luogu | p | 372 |
 | Nowcoder | Nowcoder | nc | 1 |
 | POJ | **P**eking university **J**udge**O**nline | poj | 4 |
 | S2OJ | 校内OJ | se | 9 |
