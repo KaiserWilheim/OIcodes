@@ -1,7 +1,8 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include<bits/stdc++.h>
 #define ll long long
 using namespace std;
-const int N = 100010;
+const int N = 10010;
 int n;
 int a[N];
 int f[N];
