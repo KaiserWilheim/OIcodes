@@ -1,11 +1,9 @@
-#include<bits/stdc++.h>
-#define ll long long
+#include <bits/stdc++.h>
 using namespace std;
 const int N = 3010;
-int a[N], b[N];
 int n;
+int a[N], b[N];
 int f[N][N];
-
 int main()
 {
 	scanf("%d", &n);
@@ -15,18 +13,17 @@ int main()
 		scanf("%d", &b[i]);
 	for(int i = 1; i <= n; i++)
 	{
-		int val = 0;
-		if(b[0] < a[i])val = f[i - 1][0];
+		int val = 1;
 		for(int j = 1; j <= n; j++)
 		{
-			if(a[i] == b[j])f[i][j] = val + 1;
+			if(a[i] == b[j])f[i][j] = val;
 			else f[i][j] = f[i - 1][j];
-			if(b[j] < a[i])val = max(val, f[i - 1][j]);
+			if(b[j] < a[i])val = max(val, f[i - 1][j] + 1);
 		}
 	}
 	int maxn = 0;
 	for(int i = 1; i <= n; i++)
 		maxn = max(maxn, f[n][i]);
-	cout << maxn << endl;
+	printf("%d\n", maxn);
 	return 0;
 }

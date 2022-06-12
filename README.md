@@ -42,7 +42,7 @@
 | 文件夹名 | Online Judge 全名 | 文件前缀 | 总题目数量 |
 |:-------:|:----------------:|:-------:|:--------:|
 | AcWing | AcWing | ac | 47 |
-| AtCoder | AtCoder | AXC[^1] | 64 |
+| AtCoder | AtCoder | AXC[^1] | 69 |
 | Luogu\AtCoder Practice | AtCoder（练习） | at[^2] | 2 |
 | CF | **C**ode**F**orces （比赛） | CF | 10 |
 | Luogu\CF Practice | **C**ode**F**orces （练习） | cf | 18 |
