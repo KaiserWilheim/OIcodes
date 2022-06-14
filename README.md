@@ -41,7 +41,7 @@
 
 | 文件夹名 | Online Judge 全名 | 文件前缀 | 总题目数量 |
 |:-------:|:----------------:|:-------:|:--------:|
-| AcWing | AcWing | ac | 50 |
+| AcWing | AcWing | ac | 53 |
 | AtCoder | AtCoder | AXC[^1] | 69 |
 | Luogu\AtCoder Practice | AtCoder（练习） | at[^2] | 2 |
 | CF | **C**ode**F**orces （比赛） | CF | 10 |
@@ -49,11 +49,11 @@
 | DarkBZ OJ | DarkBZ OJ | bz | 20 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
 | Libre OJ | Libre OJ | l | 39 |
-| Luogu | Luogu | p | 381 |
+| Luogu | Luogu | p | 384 |
 | Nowcoder | Nowcoder | nc | 1 |
 | POJ | **P**eking university **J**udge**O**nline | poj | 4 |
 | S2OJ | 校内OJ | se | 9 |
-| SPOJ | **SP**here **O**nline**J**udge | sp [^3] | 5 |
+| SPOJ | **SP**here **O**nline**J**udge | sp [^3] | 6 |
 | UOJ | **U**niversal**OJ** | u | 3 |
 | UVA | **UVA** Online Judge | uva | 1 |
 
