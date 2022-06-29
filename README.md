@@ -13,21 +13,8 @@
 
 大多数存储的都是 C++ 代码，有时候也会水一些 Java 和 Python 上去。
 
-最近听说Rust会比C++快，于是就在某些上面试了一下。
-
-但是：
-
-> 宝硕 任：
->
-> 谁告诉你一定快了
->
-> 是针对特定任务快了
->
-> 
->
-> 但对于 OI 来说并不快
-
-所以说好不容易学的Rust……
+CodeForces 上面还有一些 Kotlin 的题目，看起来很好玩，也很水。
+于是就水了一点。
 
 对于一些重复的题目（比如说 Luogu 的 SpOJ 题目）我会放多次。
 
@@ -41,12 +28,12 @@
 
 | 文件夹名 | Online Judge 全名 | 文件前缀 | 总题目数量 |
 |:-------:|:----------------:|:-------:|:--------:|
-| AcWing | AcWing | ac | 67 |
+| AcWing | AcWing | ac | 68 |
 | AtCoder | AtCoder | AXC[^1] | 69 |
 | Luogu\AtCoder Practice | AtCoder（练习） | at[^2] | 2 |
 | CF | **C**ode**F**orces （比赛） | CF | 10 |
 | Luogu\CF Practice | **C**ode**F**orces （练习） | cf | 18 |
-| DarkBZ OJ | DarkBZ OJ | bz | 23 |
+| DarkBZ OJ | DarkBZ OJ | bz | 24 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
 | Libre OJ | Libre OJ | l | 45 |
 | Luogu | Luogu | p | 405 |
