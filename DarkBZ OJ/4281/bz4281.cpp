@@ -2,12 +2,6 @@
 using namespace std;
 #define ll long long
 const int N = 1000010, M = N << 1;
-int read() {
-	int x = 0; char c = getchar();
-	while (!isdigit(c))c = getchar();
-	while (isdigit(c))x = x * 10 + (c ^ 48), c = getchar();
-	return x;
-}
 int n, m;
 int h[N], e[M], ne[M], idx;
 void add(int a, int b)
@@ -63,11 +57,11 @@ int main()
 {
 	memset(h, -1, sizeof(h));
 	int u;
-	n = read(), u = read(), m = read();
+	scanf("%d%d%d", &n, &u, &m);
 	for (int i = 1; i < n; i++)
 	{
 		int u, v;
-		u = read(), v = read();
+		scanf("%d%d", &u, &v);
 		add(u, v), add(v, u);
 	}
 	dfs1(1, 0, 1);
@@ -75,7 +69,7 @@ int main()
 	while (m--)
 	{
 		int v, step;
-		v = read(), step = read();
+		scanf("%d%d", &v, &step);
 		int x = lca(u, v);
 		int dis1 = dep[u] - dep[x], dis2 = dep[v] - dep[x];
 		if (step >= dis1 + dis2)
