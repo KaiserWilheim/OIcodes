@@ -31,8 +31,8 @@ CodeForces 上面还有一些 Kotlin 的题目，看起来很好玩，也很水�
 | AcWing | AcWing | ac | 68 |
 | AtCoder Contest | AtCoder（比赛） | AXC[^1] | 65 |
 | AtCoder Practice | AtCoder（练习） | AXC[^1] | 12 |
-| CF | **C**ode**F**orces （比赛） | CF | 10 |
-| Luogu\CF Practice | **C**ode**F**orces （练习） | cf | 18 |
+| CodeForces Contest | CodeForces （比赛） | CF | 11 |
+| CodeForces Practice | CodeForces （练习） | cf | 18 |
 | DarkBZ OJ | DarkBZ OJ | bz | 24 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
 | Libre OJ | Libre OJ | l | 45 |
