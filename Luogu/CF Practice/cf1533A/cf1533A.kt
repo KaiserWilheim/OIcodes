@@ -7,8 +7,8 @@ fun main(args: Array<String>) {
         var n = scan.nextInt()
         var k = scan.nextInt()
         for(i in 1..n){
-            var a = scan.nextInt();
-            var b = scan.nextInt();
+            var a = scan.nextInt()
+            var b = scan.nextInt()
             if(a > k)continue
             ans = max(ans, b - max(a, k) + 1)
         }
