@@ -29,8 +29,8 @@ CodeForces 上面还有一些 Kotlin 的题目，看起来很好玩，也很水�
 | 文件夹名 | Online Judge 全名 | 文件前缀 | 总题目数量 |
 |:-------:|:----------------:|:-------:|:--------:|
 | AcWing | AcWing | ac | 68 |
-| AtCoder | AtCoder | AXC[^1] | 69 |
-| Luogu\AtCoder Practice | AtCoder（练习） | at[^2] | 2 |
+| AtCoder Contest | AtCoder（比赛） | AXC[^1] | 65 |
+| AtCoder Practice | AtCoder（练习） | AXC[^1] | 12 |
 | CF | **C**ode**F**orces （比赛） | CF | 10 |
 | Luogu\CF Practice | **C**ode**F**orces （练习） | cf | 18 |
 | DarkBZ OJ | DarkBZ OJ | bz | 24 |
@@ -40,13 +40,12 @@ CodeForces 上面还有一些 Kotlin 的题目，看起来很好玩，也很水�
 | Nowcoder | Nowcoder | nc | 1 |
 | POJ | **P**eking university **J**udge**O**nline | poj | 5 |
 | S2OJ | 校内OJ | se | 9 |
-| SPOJ | **SP**here **O**nline**J**udge | sp [^3] | 6 |
+| SPOJ | **SP**here **O**nline**J**udge | sp [^2] | 6 |
 | UOJ | **U**niversal**OJ** | u | 4 |
-| UVA | **UVA** Online Judge | uva | 1 |
+| Luogu\UVA Practice | **UVA** Online Judge | uva | 1 |
 
 [^1]: 包括 `ABC` , `ARC` 与 `AGC`
-[^2]: 只收录了洛谷内有的题目
-[^3]: 可以同时根据题目在洛谷中的编号以及题目在SPOJ中的字母代号进行搜索
+[^2]: 可以同时根据题目在洛谷中的编号以及题目在SPOJ中的字母代号进行搜索
 
 
 
