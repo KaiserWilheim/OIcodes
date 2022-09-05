@@ -3,9 +3,11 @@ using namespace std;
 #define ll long long
 const int N = 100005;
 const int M = 300005;
-int head[N], ne[M << 1], to[M << 1], cost[M << 1], idx;
-#define add(a,b,c) to[++idx]=b,ne[idx]=head[a],head[a]=idx,cost[idx]=c
-#define bianli(x) for(int i=head[x];i;i=ne[i])
+int h[N], ne[M << 1], e[M << 1], w[M << 1], idx;
+void add(int a, int b, int c)
+{
+	e[idx] = b, w[idx] = c, ne[idx] = h[a], h[a] = idx++;
+}
 int val[N];
 int n, m;
 ll sum[N];
@@ -15,7 +17,7 @@ struct node
 {
 	ll v;
 	int id;
-	bool operator <(const node &A)const
+	bool operator < (const node &A)const
 	{
 		return v > A.v;
 	}
@@ -23,7 +25,7 @@ struct node
 priority_queue<node> q;
 void dijkstra(int at)
 {
-	for(int i=1;i<=n;i++)sum[i]=1e18;
+	for(int i = 1; i <= n; i++)sum[i] = 1e18;
 	q.push({ 0,1 });
 	H[1] = at;
 	sum[1] = 0;
@@ -34,36 +36,36 @@ void dijkstra(int at)
 		q.pop();
 		if(mark[now.id])continue;
 		mark[now.id] = 1;
-		int h = H[now.id];
-		bianli(now.id)
+		int nh = H[now.id];
+		for(int i = h[now.id]; ~i; i = ne[i])
 		{
-			if(h - cost[i] > val[to[i]])
+			if(nh - w[i] > val[e[i]])
 			{
-				v = sum[now.id] + h - cost[i] - val[to[i]] + cost[i];
-				if(sum[to[i]] > v)
+				v = sum[now.id] + nh - w[i] - val[e[i]] + w[i];
+				if(sum[e[i]] > v)
 				{
-					sum[to[i]] = v;
-					H[to[i]] = val[to[i]];
-					q.push({ sum[to[i]],to[i] });
+					sum[e[i]] = v;
+					H[e[i]] = val[e[i]];
+					q.push({ sum[e[i]],e[i] });
 				}
 			}
-			else if(h - cost[i] < 0)
+			else if(nh - w[i] < 0)
 			{
-				v = sum[now.id] + cost[i] - h + cost[i];
-				if(sum[to[i]] > v)
+				v = sum[now.id] + w[i] - nh + w[i];
+				if(sum[e[i]] > v)
 				{
-					sum[to[i]] = v;
-					H[to[i]] = 0;
-					q.push({ sum[to[i]],to[i] });
+					sum[e[i]] = v;
+					H[e[i]] = 0;
+					q.push({ sum[e[i]],e[i] });
 				}
 			}
 			else
 			{
-				if(sum[to[i]] > sum[now.id] + cost[i])
+				if(sum[e[i]] > sum[now.id] + w[i])
 				{
-					sum[to[i]] = sum[now.id] + cost[i];
-					H[to[i]] = h - cost[i];
-					q.push({ sum[to[i]],to[i] });
+					sum[e[i]] = sum[now.id] + w[i];
+					H[e[i]] = nh - w[i];
+					q.push({ sum[e[i]],e[i] });
 				}
 			}
 		}
@@ -71,6 +73,7 @@ void dijkstra(int at)
 }
 int main()
 {
+	memset(h, -1, sizeof(h));
 	int at;
 	scanf("%d%d%d", &n, &m, &at);
 	for(int i = 1; i <= n; i++)scanf("%d", &val[i]);
