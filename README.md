@@ -6,8 +6,9 @@
 
 ## 说明
 
-本仓库存放OI相关代码。如果搞到了数据也会~~放上去~~放到隔壁的OI Data仓库。
-（其实也没有其他的代码qwq）
+本仓库存放OI相关代码。如果搞到了数据也会~~放上去放到隔壁的OI Data仓库~~放到隔壁的Onedrive上。
+下载链接：[这里](https://yiniruohong-my.sharepoint.com/:f:/g/personal/kaiserwilheim_yiniruohong_onmicrosoft_com/Ev8j8WViBtdBoS8xLRd8pBMBPaAu-GhYFAc240jtOlLB0A?e=BHmTTY)
+需要密码的话直接问我。[Telegram](https://t.me/KaiserWilheim)
 
 这里不仅有我平时在 OJ 上面做题的代码，还有我进行一些考试（例如 CF Round 和 ABC 等）时的代码。
 
