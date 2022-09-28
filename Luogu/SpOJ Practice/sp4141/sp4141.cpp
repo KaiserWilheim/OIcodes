@@ -1,7 +1,8 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
-const int N = 1000010;
-int phi[N], prime[N / 100];
+#define ll long long
+const int N = 1e6 + 5;
+int phi[N], prime[N];
 bool visit[N];
 void getphi(int n)
 {
@@ -29,20 +30,16 @@ void getphi(int n)
 		}
 	}
 }
-
-int a[N];
 int main()
 {
-	int T;
-	scanf("%d", &T);
-	int maxn = 0;
-	for(int i = 1; i <= T; i++)
+	getphi(1000000);
+	int n;
+	scanf("%d", &n);
+	for(int i = 1; i <= n; i++)
 	{
-		scanf("%d", &a[i]);
-		maxn = max(maxn, a[i]);
+		int x;
+		scanf("%d", &x);
+		printf("%d\n", phi[x]);
 	}
-	getphi(maxn + 1);
-	for(int i = 1; i <= T; i++)
-		printf("%d\n", phi[a[i]]);
 	return 0;
 }
