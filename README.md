@@ -29,18 +29,18 @@ CodeForces 上面还有一些 Kotlin 的题目，看起来很好玩，也很水�
 
 | 文件夹名 | Online Judge 全名 | 文件前缀 | 总题目数量 |
 |:-------:|:----------------:|:-------:|:--------:|
-| AcWing | AcWing | ac | 78 |
+| AcWing | AcWing | ac | 80 |
 | AtCoder Contest | AtCoder（比赛） | AXC[^1] | 67 |
-| AtCoder Practice | AtCoder（练习） | AXC[^1] | 16 |
+| AtCoder Practice | AtCoder（练习） | AXC[^1] | 20 |
 | CodeForces Contest | CodeForces （比赛） | CF | 9 |
-| CodeForces Practice | CodeForces （练习） | cf | 36 |
-| DarkBZ OJ | DarkBZ OJ | bz | 40 |
+| CodeForces Practice | CodeForces （练习） | cf | 71 |
+| DarkBZ OJ | DarkBZ OJ | bz | 42 |
 | Easy OJ | Easy OJ （已挂） | e | 2 |
-| Libre OJ | Libre OJ | l | 69 |
+| Libre OJ | Libre OJ | l | 71 |
 | Luogu | Luogu | p | 482 |
 | Nowcoder | Nowcoder | nc | 1 |
 | POJ | **P**eking university **J**udge**O**nline | poj | 5 |
-| S2OJ | 校内OJ | se | 54 |
+| S2OJ | 校内OJ | se | 89 |
 | SPOJ | **SP**here **O**nline**J**udge | sp [^2] | 7 |
 | UOJ | **U**niversal**OJ** | u | 7 |
 | Luogu\UVA Practice | **UVA** Online Judge | uva | 3 |
